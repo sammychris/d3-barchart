@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma;
+  background: #000000c7;
+}
+main {
+  width: 900px;
+  margin: auto;
+  padding-bottom: 30px;
+  #title {
+    padding: 10px;
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+  }
+  #tooltip {
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+    background: #1da1f2;
+    border-radius: 2px;
+    pointer-events: none; 
+  }
+  svg {
+    background: #fff;
+    margin: auto;
+    box-shadow: 0 0 12px 6px black;
+    .text {
+      font-family: 'tahoma';
+      font-size: 14px;
+    }
+    .bar:hover {
+      fill: #FFF;
+    }
+  }
+}
